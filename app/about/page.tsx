@@ -6,6 +6,7 @@ import PageHero from "@/components/PageHero";
 import Reveal from "@/components/Reveal";
 import SectionHeading from "@/components/SectionHeading";
 import CtaBand from "@/components/CtaBand";
+import { TeamGrid } from "@/components/Proof";
 
 export const metadata: Metadata = {
   title: "About",
@@ -102,6 +103,8 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      <TeamGrid />
 
       <section className="section" style={{ paddingTop: 0 }}>
         <div className="container">

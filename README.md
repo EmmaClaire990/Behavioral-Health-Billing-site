@@ -21,6 +21,10 @@ npm run build && npm start   # production
 | `components/` | Shared UI (top bar, nav, footer, page hero, forms, FAQ, scroll-reveal) |
 | `public/images/` | Photography (Unsplash, free to use under the Unsplash License) |
 
+## Proof sections (metrics, case studies, systems, payers, testimonials, team)
+
+All proof content lives in `lib/proof.ts`. Add **genuine, documented** data only. Each section stays hidden while its list is empty. Testimonials and the leadership team are empty for now, so they don't show. The homepage "Trusted Revenue Cycle Partner" metrics band replaces the generic focus banner whenever `metrics` has entries.
+
 ## Before launch
 
 - Phone and email are set in `lib/site.ts`. Make sure the email inbox exists.

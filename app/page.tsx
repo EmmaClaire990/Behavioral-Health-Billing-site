@@ -18,7 +18,9 @@ import Icon from "@/components/Icon";
 import Wave from "@/components/Wave";
 import Faq from "@/components/Faq";
 import QuickConsultForm from "@/components/QuickConsultForm";
+import { CaseStudies, MetricsBand, SystemsStrip, Testimonials } from "@/components/Proof";
 import { articles, audiences, process, services } from "@/lib/site";
+import { proof } from "@/lib/proof";
 
 const challenges = [
   {
@@ -149,6 +151,11 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ───────────── PROOF (renders only when lib/proof.ts has data) ───────────── */}
+      <MetricsBand />
+      <CaseStudies />
+      <SystemsStrip />
+
       {/* ───────────── EXPERTISE ───────────── */}
       <section className="section expertise">
         <div className="container">
@@ -232,7 +239,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ───────────── FOCUS BANNER ───────────── */}
+      {/* ───────────── FOCUS BANNER (fallback until real metrics exist) ───────────── */}
+      {proof.metrics.length === 0 && (
       <section className="statband">
         <div className="container statband__inner">
           <div className="statband__lead">
@@ -265,6 +273,7 @@ export default function HomePage() {
           </dl>
         </div>
       </section>
+      )}
 
       {/* ───────────── WHO WE SERVE ───────────── */}
       <section className="section audiences">
@@ -406,6 +415,8 @@ export default function HomePage() {
           </Reveal>
         </div>
       </section>
+
+      <Testimonials />
 
       {/* ───────────── FAQ ───────────── */}
       <section className="section faqsec">
