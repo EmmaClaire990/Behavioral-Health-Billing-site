@@ -4,9 +4,9 @@ export const site = {
   name: "Behavioral Health Medical Billing",
   domain: "BehavioralHealthMedicalBilling.com",
   url: "https://www.behavioralhealthmedicalbilling.com",
-  phone: "(307) 335-3542",
-  phoneHref: "tel:+13073353542",
-  email: "info@behavioralhealthmedicalbilling.com",
+  phone: "(631) 944-8343",
+  phoneHref: "tel:+16319448343",
+  email: "info@behavioralmedicalbilling.com",
   hours: "Monday – Friday, business hours",
   description:
     "Specialized medical billing and revenue cycle support for behavioral health practices — therapists, psychiatrists, psychologists, clinics, group practices, and addiction treatment providers.",

@@ -23,6 +23,6 @@ npm run build && npm start   # production
 
 ## Before launch
 
-- Confirm the contact email in `lib/site.ts` (the phone number is set).
+- Phone and email are set in `lib/site.ts`. Make sure the email inbox exists.
 - Connect `submitForm()` in `lib/forms.ts` to a real endpoint (consultation, quick consultation, newsletter).
 - Add testimonials or performance metrics only once they're verified.
