@@ -4,8 +4,8 @@ export const site = {
   name: "Behavioral Health Medical Billing",
   domain: "BehavioralHealthMedicalBilling.com",
   url: "https://www.behavioralhealthmedicalbilling.com",
-  phone: "(555) 010-2040",
-  phoneHref: "tel:+15550102040",
+  phone: "(307) 335-3542",
+  phoneHref: "tel:+13073353542",
   email: "info@behavioralhealthmedicalbilling.com",
   hours: "Monday – Friday, business hours",
   description:

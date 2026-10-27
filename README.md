@@ -23,6 +23,6 @@ npm run build && npm start   # production
 
 ## Before launch
 
-- Replace the placeholder phone `(555) 010-2040` and the email in `lib/site.ts`.
+- Confirm the contact email in `lib/site.ts` (the phone number is set).
 - Connect `submitForm()` in `lib/forms.ts` to a real endpoint (consultation, quick consultation, newsletter).
 - Add testimonials or performance metrics only once they're verified.
